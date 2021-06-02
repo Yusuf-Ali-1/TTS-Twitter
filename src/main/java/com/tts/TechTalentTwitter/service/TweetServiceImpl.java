@@ -18,6 +18,7 @@ import java.util.regex.Pattern;
 
 @Service
 public class TweetServiceImpl implements TweetService{
+
     @Autowired
     private TweetRepository tweetRepository;
 
